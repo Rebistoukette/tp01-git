@@ -56,7 +56,7 @@ Le README.md est passé dans la zone de préparation
 ### 3.7
 1. `git status` décrit README.md comme élément modifié.
 
-2. `git diff` montre les différences entre le fichier local et celui envoyé sur le commit
+2. `git diff` montre les différences entre le fichier local et celui envoyé sur le commit. Le `+` montre ce qu'il y a sur la machine.
 
 
 Année scolaire 2026-2027.
