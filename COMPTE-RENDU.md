@@ -53,3 +53,10 @@ Le README.md est passé dans la zone de préparation
 
 3. Il s'écrit avec 40 caractères d'hexadécimal soit 160 bits au total
 
+### 3.7
+1. `git status` décrit README.md comme élément modifié.
+
+2. `git diff` montre les différences entre le fichier local et celui envoyé sur le commit
+
+
+Année scolaire 2026-2027.
