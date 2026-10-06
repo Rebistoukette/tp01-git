@@ -139,3 +139,11 @@ Ce qui a changé depuis c'est ajout de la ligne de l'année.
 
     ```
 2. L'historique de Github est le meme que `git log --oneline` et le fichier `brouillon.txt.` n'est pas sur github car il est dans le `.gitignore`.
+
+### 6.4a
+
+Le dépôt local ne contient pas la modification. `git status` ne prévient pas qu'il existe un commit plus récent sur GitHub car je ne lui ai pas demandé de récuperer l'histoire des commit de GitHub
+
+### 6.4b
+
+La modification a été effectué sur le dépôt local et l'auteur du dernier commit est mon profil github
