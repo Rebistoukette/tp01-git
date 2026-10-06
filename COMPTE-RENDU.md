@@ -91,4 +91,17 @@ Le fichier est toujours présent sur le disque, il a seulement été changé de 
 <br>
 `*.log` désigne tout les fichier qui finissent en `.log`
 
-Année scolaire 2026-2027.
+2. Le fichier qui apparait est `.gitignore` et il ne faut pas le committer.
+
+### 4.5
+Le fichier `README.md` contenait lors du permier commit :
+```
+# TP01 — Découverte de Git
+
+Dépôt réalisé par Prénom Nom, 1CIEL-IR.
+
+Ce dépôt contient mon compte rendu du TP01.
+
+```
+
+Ce qui a changé depuis c'est ajout de la ligne de l'année.
