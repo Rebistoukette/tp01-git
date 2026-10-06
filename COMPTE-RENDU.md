@@ -138,3 +138,4 @@ Ce qui a changé depuis c'est ajout de la ligne de l'année.
     la branche 'main' est paramétrée pour suivre 'origin/main'.
 
     ```
+2. L'historique de Github est le meme que `git log --oneline` et le fichier `brouillon.txt.` n'est pas sur github car il est dans le `.gitignore`.
