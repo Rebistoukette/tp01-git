@@ -116,3 +116,25 @@ Ce qui a changé depuis c'est ajout de la ligne de l'année.
 1. `Hi Rebistoukette! You've successfully authenticated, but GitHub does not provide shell access.`
 
 2. Avec notre clé privé, GitHub pourrait usurper notre identité ou quelqu'un qui récupère des information depuis github pourrait également, alors qu'avec la clé prublique c'est impossible.
+
+## Partie 6
+
+### 6.3
+1. ```
+    origin	git@github.com:Rebistoukette/tp01-git.git (fetch)
+    origin	git@github.com:Rebistoukette/tp01-git.git (push)
+
+    ```
+    ```
+    Énumération des objets: 33, fait.
+    Décompte des objets: 100% (33/33), fait.
+    Compression par delta en utilisant jusqu'à 12 fils d'exécution
+    Compression des objets: 100% (32/32), fait.
+    Écriture des objets: 100% (33/33), 5.27 Kio | 2.63 Mio/s, fait.
+    Total 33 (delta 10), réutilisés 0 (delta 0), réutilisés du pack 0
+    remote: Resolving deltas: 100% (10/10), done.
+    To github.com:Rebistoukette/tp01-git.git
+     * [new branch]      main -> main
+    la branche 'main' est paramétrée pour suivre 'origin/main'.
+
+    ```
