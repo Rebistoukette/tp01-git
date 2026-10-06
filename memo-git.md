@@ -16,3 +16,7 @@ Il permet d'ajouter un fichier dans la zone de préparation.
 ### `git commit -m "..."`
 
 Il permet d'envoyer les fichiers de la zone de préparation à la zone de dépôt.
+
+### `git log --oneline`
+
+Permet de voir tout les commit effectué en une seule ligne
