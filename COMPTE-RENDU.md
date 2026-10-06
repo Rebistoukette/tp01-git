@@ -105,3 +105,14 @@ Ce dépôt contient mon compte rendu du TP01.
 ```
 
 Ce qui a changé depuis c'est ajout de la ligne de l'année.
+
+## Partie 5
+
+### 5.2
+1. Les fichiers créés sont `id_ed25519.pub` (la clé publique) et `id_ed25519` (la clé privé)
+2. Ils sont tout les deux en 700 car seul le propriétaire des clé dois pouvoir les voir et en faire ce qu'il veut.
+
+### 5.4
+1. `Hi Rebistoukette! You've successfully authenticated, but GitHub does not provide shell access.`
+
+2. Avec notre clé privé, GitHub pourrait usurper notre identité ou quelqu'un qui récupère des information depuis github pourrait également, alors qu'avec la clé prublique c'est impossible.
