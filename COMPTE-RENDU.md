@@ -147,3 +147,25 @@ Le dépôt local ne contient pas la modification. `git status` ne prévient pas 
 ### 6.4b
 
 La modification a été effectué sur le dépôt local et l'auteur du dernier commit est mon profil github
+
+### 6.5
+
+```
+Répertoire de travail --( git add )--> Zone de préparation --( git commit -m "..." )--> Dépôt local --( git push )--> GitHub
+          ^                                                                               |
+          +--------------------------------------( pull )------------------------------------+
+```
+
+## Partie 7
+
+### 7.1
+
+1. Le clone contient tout l'historique ainsi que la dernière version des fichiers
+
+2. Le fichier `brouillon.txt` n'est pas présent dans le clone car le clone provient de github et le clone n'a jamais été commit donc jamais été push.
+
+3. Non je n'ai pas eu besoin de le faire car ça permet de créé des fichier qui ont déjà été envoyé avec le push et qui ont donc été récupéré.
+
+### 7.2
+
+Prendre l'habitude de faire des `git pull` et `git push` ça permet de toujours enregistrer et récupérer le travail sur GitHub pour être sûr de ne pas le perdre.
