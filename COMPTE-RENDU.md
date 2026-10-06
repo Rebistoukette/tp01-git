@@ -1,14 +1,14 @@
 # Compte rendu — TP01 Git
 
-## Question 0
+## Partie 0
 La version installé est la 2.43.0
 
 
-## Question 1
+## Partie 1
 https://github.com/Rebistoukette
 
 
-## Question 2
+## Partie 2
 
 1. ```
     user.name=Rémi Bertranda
@@ -20,7 +20,7 @@ https://github.com/Rebistoukette
     Les réglages sont enregistrés dans .git/congif
 
     
-## Question 3
+## Partie 3
 ### 3.1
 Il répond une erreur qui dit que ce repertoire n'est pas un repo car on n'a rien initialisé
 
@@ -59,5 +59,36 @@ Le README.md est passé dans la zone de préparation
 2. `git diff` montre les différences entre le fichier local et celui envoyé sur le commit. Le `+` montre ce qu'il y a sur la machine.
 
 Ligne supplémentaire pour le 3.8.
+
+
+### 3.8
+1. ```
+    89dec09 (HEAD -> main) Ajout de la ligne supplémentaire pour le 3.8.
+    7ffa632 Création de l'aide-mémoire Git
+    d286cab Question 3.7 complété avec la seconde question de la 3.7
+    897dcf9 Question 3.7 (réponse 1 et 2)
+    0feb3f9 Ajout du compte rendu (questions 0 à 3.5)
+    fabd5c6 Ajout du compte rendu (questions 0 à 3.5)
+    ceee8e8 Création du README
+    ```
+
+2. ça permet de pouvoir revenir à une ancienne sauvegarde d'un seul fichier en cas de problème au lieu de récupéré les anciennes sauvegarde de tous les fichiers
+
+## Partie 4
+
+### 4.1
+Le `git show` montre les modifications ajouté depuis la version précédente du fichier correspondant au hash choisi. On retrouve donc tout les ajouts et suppressions.
+
+### 4.2
+Le `git restore` permet d'annuler la dernière modification d'un fichier.
+
+### 4.3
+Après le `git restore`, le fichier `test.txt` se retrouve à nouveau dans le répèrtoire de travail.
+Le fichier est toujours présent sur le disque, il a seulement été changé de zone.
+
+### 4.4
+1. Les fichiers qui ont disparu du `git status` sont tout les fichiers ajouté dans le `gitignore`. 
+<br>
+`*.log` désigne tout les fichier qui finissent en `.log`
 
 Année scolaire 2026-2027.
