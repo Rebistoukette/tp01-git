@@ -58,5 +58,6 @@ Le README.md est passé dans la zone de préparation
 
 2. `git diff` montre les différences entre le fichier local et celui envoyé sur le commit. Le `+` montre ce qu'il y a sur la machine.
 
+Ligne supplémentaire pour le 3.8.
 
 Année scolaire 2026-2027.
